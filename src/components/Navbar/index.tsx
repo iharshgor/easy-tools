@@ -117,32 +117,17 @@ const Navbar: React.FC<NavbarProps> = ({
       fontSize={30}
       icon={'ic:baseline-discord'}
     />,
-    <iframe
-      src="https://ghbtns.com/github-btn.html?user=iib0011&repo=omni-tools&type=star&count=true&size=large"
-      frameBorder="0"
-      scrolling="0"
-      width="150"
-      height="30"
-      title="GitHub"
-    ></iframe>,
     <Button
       onClick={() => {
-        window.open(
-          'https://drive.google.com/file/d/1-r9-rDYnDJic9dnDywKTAsueehIAVp5F/view?usp=sharing',
-          '_blank'
-        );
+        window.open('https://iharshgor.com', '_blank');
       }}
       sx={{ borderRadius: '100px' }}
       variant={'contained'}
       startIcon={
-        <Icon
-          style={{ cursor: 'pointer' }}
-          fontSize={25}
-          icon={'hugeicons:job-search'}
-        />
+        <Icon style={{ cursor: 'pointer' }} fontSize={25} icon={'bx:globe'} />
       }
     >
-      {t('navbar.hireMe')}
+      iharshgor.com
     </Button>
   ];
   const drawerList = (
