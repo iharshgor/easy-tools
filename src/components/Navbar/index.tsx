@@ -111,12 +111,6 @@ const Navbar: React.FC<NavbarProps> = ({
             : 'ic:round-contrast'
       }
     />,
-    <Icon
-      onClick={() => window.open('https://discord.gg/SDbbn3hT4b', '_blank')}
-      style={{ cursor: 'pointer' }}
-      fontSize={30}
-      icon={'ic:baseline-discord'}
-    />,
     <Button
       onClick={() => {
         window.open('https://iharshgor.com', '_blank');
